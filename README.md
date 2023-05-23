@@ -73,3 +73,10 @@ Para aplicar estas configurações é necessário reiniciar as distribuições L
 
 # Configurando Node
 - Agora, precisa configurar o node no nosso linux! Vamos usar [Node Version Manager(NVM)](https://github.com/nvm-sh/nvm) para isso.
+
+Em resumo, os passos:
+
+1- Com o curl instalado, `curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash `<br>
+2- `source ~/.profile`<br>
+3- Restart o terminal.<br>
+4- Instalei a versão 18.16, a LTS da época. `nvm install 18.16.0`
