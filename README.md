@@ -28,9 +28,9 @@ Parabéns, seu WSL2 já está funcionando:
 
 Uma deficiência que o Windows sempre teve era prover um terminal adequado para desenvolvimento. Agora temos o **Windows Terminal** construído pela própria Microsoft que permite rodar terminais em abas, alterar cores e temas, configurar atalhos e muito mais.
 
-1 - Instale-o pelo Windows Store
-2 - Abra-o e clique na setinha que fica ao lado das abas.
-3 - Vá em configurações e sete o ubuntu como inicializador padrão do terminal.
+1 - Instale-o pelo Windows Store<br>
+2 - Abra-o e clique na setinha que fica ao lado das abas.<br>
+3 - Vá em configurações e sete o ubuntu como inicializador padrão do terminal.<br>
 
 
 ## Configurações WSL2
@@ -46,7 +46,7 @@ Recomendo essa documentação: [VIM](https://www.freecodecamp.org/portuguese/new
 
 
 ### Utilizando vim para alterar .wslconfig no windows
-1- vim .wslconfig
+1- vim .wslconfig<br>
 2- adicionar: 
 ```
 [wsl2]
