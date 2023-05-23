@@ -54,3 +54,4 @@ memory=4GB
 processors=4
 swap=2GB
 ```
+Para aplicar estas configurações é necessário reiniciar as distribuições Linux, então sugiro executar no PowerShell o comando: `{wsl --shutdown` (Este comando vai desligar todas as instâncias WSL 2 ativas e basta abrir o terminal novamente para usa-la já com as novas configurações).
