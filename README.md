@@ -43,6 +43,7 @@ Em resumo, basta baixar o seguinte arquivo e ir clicando em next: https://ftp.nl
 
 Caso queira saber mais:
 Recomendo essa documentação: [VIM](https://www.freecodecamp.org/portuguese/news/guia-de-instalacao-do-vim-no-windows-como-executar-o-editor-de-texto-vim-no-powershell-do-seu-pc/)
+[Como usar o VIM](https://www.freecodecamp.org/news/vim-beginners-guide/)
 
 
 ### Utilizando vim para alterar .wslconfig no windows
