@@ -1,7 +1,7 @@
 # wsl-config
 Repositório criado para deixar salvo minhas configs WSL2.
 
-> ## Windows 11
+> # Windows 11
 
 Execute o comando:
 
@@ -33,7 +33,7 @@ Uma deficiência que o Windows sempre teve era prover um terminal adequado para 
 3 - Vá em configurações e sete o ubuntu como inicializador padrão do terminal.<br>
 
 
-## Configurações WSL2
+# Configurações WSL2
 - Gosto de limitar os recursos que o WSL2 vai utilizar da minha máquina. Para limitar a quantidade de recursos edito o arquivo .wslconfig dentro da pasta do usuário no próprio Windows, no meu caso c:\Users\user.
 
 ### Instalando vim
@@ -58,6 +58,18 @@ swap=2GB
 Para aplicar estas configurações é necessário reiniciar as distribuições Linux, então sugiro executar no PowerShell o comando: `{wsl --shutdown` (Este comando vai desligar todas as instâncias WSL 2 ativas e basta abrir o terminal novamente para usa-la já com as novas configurações).
 
 
-## Oh My ZSH
+# Oh My ZSH
 
 - Nesse caso, já tenho uma sequência de comando exatos para configurar o `oh my zsh` no terminal! https://github.com/joaopfsiqueira/myConfigs-linux-terminal
+
+
+# Configurando git
+
+- Vamos definir globalmente o usuário e e-mail para poder trabalhar com github nas nossas aplicações.
+
+1- `git config --global user.name "Your Name"` <br>
+2- `git config --global user.email "youremail@domain.com"`
+
+
+# Configurando Node
+- Agora, precisa configurar o node no nosso linux! Vamos usar [Node Version Manager(NVM)](https://github.com/nvm-sh/nvm) para isso.
