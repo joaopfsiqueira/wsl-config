@@ -36,7 +36,7 @@ Uma deficiência que o Windows sempre teve era prover um terminal adequado para 
 ## Configurações WSL2
 - Gosto de limitar os recursos que o WSL2 vai utilizar da minha máquina. Para limitar a quantidade de recursos edito o arquivo .wslconfig dentro da pasta do usuário no próprio Windows, no meu caso c:\Users\user.
 
-### instalando vim
+### Instalando vim
 Antes de tudo, é provável que o windows não tenha instalado o `vim`, vamos fazer isso!
 
 Em resumo, basta baixar o seguinte arquivo e ir clicando em next: https://ftp.nluug.nl/pub/vim/pc/gvim82.exe
@@ -55,3 +55,8 @@ processors=4
 swap=2GB
 ```
 Para aplicar estas configurações é necessário reiniciar as distribuições Linux, então sugiro executar no PowerShell o comando: `{wsl --shutdown` (Este comando vai desligar todas as instâncias WSL 2 ativas e basta abrir o terminal novamente para usa-la já com as novas configurações).
+
+
+## Oh My ZSH
+
+- Nesse caso, já tenho uma sequência de comando exatos para configurar o `oh my zsh` no terminal! https://github.com/joaopfsiqueira/myConfigs-linux-terminal
