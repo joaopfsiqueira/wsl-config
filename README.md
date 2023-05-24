@@ -199,3 +199,24 @@ Em resumo:
 
 1- `curl -SL https://github.com/docker/compose/releases/download/v2.18.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose` <br>
 2- `sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`
+
+
+
+# Bugs
+
+- Caso tenha problemas com abrir links da WSL em um navegador, siga os passos:
+
+```
+sudo add-apt-repository ppa:wslutilities/wslu
+sudo apt update
+sudo apt install wslu
+export BROWSER=wslview
+```
+Depois, adicione export BROWSER=wslview no arquivo .bashrc que fica na home do usuário. Recomendo o nano:
+```
+nano ~/.bashrc
+export BROWSER=wslview
+CTRL O
+ENTER
+CTRL X
+```
