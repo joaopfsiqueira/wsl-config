@@ -191,3 +191,11 @@ command="service docker start"
 ```
 
 Quando terminar a edição, pressione `Esc`, em seguida tecle `:` para entrar com o comando `wq` (salvar e sair) e pressione `enter`. Pronto, para reiniciar o WSL com o comando `wsl --shutdown` no DOS ou PowerShell para testar. Após abrir o WSL novamente, digite o comando `docker ps` para avaliar se o comando não retorna a mensagem acima: `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?`
+
+# Docker Compose
+- Eu utilizo o docker compose para orquestramento de containers. Doc oficial: [Docker-Compose](https://docs.docker.com/compose/install/standalone/)
+
+Em resumo:
+
+1- `curl -SL https://github.com/docker/compose/releases/download/v2.18.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose` <br>
+2- `sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`
